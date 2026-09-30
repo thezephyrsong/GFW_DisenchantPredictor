@@ -10,13 +10,25 @@ jobs:
   release:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Grants permission to upload releases and assets to GitHub
+      contents: write
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      - name: Create GitHub Release
+        id: create_release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: ${{ github.ref_name }}
+          draft: false
+          prerelease: false
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Package Addon and Release
         uses: BigWigsMods/packager@v2
