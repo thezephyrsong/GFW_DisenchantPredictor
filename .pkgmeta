@@ -2,6 +2,10 @@ package-as: GFW_DisenchantPredictor
 
 enable-nolib-creation: yes
 
+wowi-id: 
+wowi-type: retail
+wago-id: j6jAA4NR
+
 externals:
   Libs/LibStub:
     url: https://repos.wowace.com/wow/libstub/trunk
