@@ -4,22 +4,22 @@ enable-nolib-creation: yes
 
 externals:
   Libs/LibStub:
-    url: https://repos.curseforge.com/wow/libstub/mainline
+    url: https://repos.wowace.com/wow/libstub/trunk
     tag: latest
   Libs/CallbackHandler-1.0:
-    url: https://repos.curseforge.com/wow/callbackhandler/mainline
+    url: https://repos.wowace.com/wow/callbackhandler/trunk/CallbackHandler-1.0
     tag: latest
   Libs/AceGUI-3.0:
-    url: https://repos.curseforge.com/wow/ace3/mainline/AceGUI-3.0
+    url: https://repos.wowace.com/wow/ace3/trunk/AceGUI-3.0
     tag: latest
   Libs/AceDB-3.0:
-    url: https://repos.curseforge.com/wow/ace3/mainline/AceDB-3.0
+    url: https://repos.wowace.com/wow/ace3/trunk/AceDB-3.0
     tag: latest
   Libs/AceDBOptions-3.0:
-    url: https://repos.curseforge.com/wow/ace3/mainline/AceDBOptions-3.0
+    url: https://repos.wowace.com/wow/ace3/trunk/AceDBOptions-3.0
     tag: latest
   Libs/AceConfig-3.0:
-    url: https://repos.curseforge.com/wow/ace3/mainline/AceConfig-3.0
+    url: https://repos.wowace.com/wow/ace3/trunk/AceConfig-3.0
     tag: latest
 
 ignore:
