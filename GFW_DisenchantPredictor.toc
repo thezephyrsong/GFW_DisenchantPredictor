@@ -1,0 +1,7 @@
+## Interface: 16001
+## Title: Fizzwidget's Disenchant Predictor
+## Notes: Displays disenchanting results in item tooltips.
+## SavedVariables: FDP_Config
+
+localization.lua
+DisenchantPredictor.lua
