@@ -7,10 +7,10 @@
 ## OptionalDeps: Ace3, LibStub, CallbackHandler-1.0
 ## X-Category: Professions
 
-# Libraries
+GFWUtils.lua
+GFWTable.lua
+
 Libs.xml
 
-# Addon Code
 localization.lua
 DisenchantPredictor.lua
-DisenchantPredictor.xml
