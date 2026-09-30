@@ -1,7 +1,16 @@
-## Interface: 16001
+## Interface: 16001, 120100
 ## Title: Fizzwidget's Disenchant Predictor
-## Notes: Displays disenchanting results in item tooltips.
+## Notes: Displays disenchanting results in item tooltips and source info on reagents.
+## Author: Gazmik Fizzwidget (ported by Zae)
+## Version: @project-version@
 ## SavedVariables: FDP_Config
+## OptionalDeps: Ace3, LibStub, CallbackHandler-1.0
+## X-Category: Professions
 
+# Libraries
+Libs.xml
+
+# Addon Code
 localization.lua
 DisenchantPredictor.lua
+DisenchantPredictor.xml

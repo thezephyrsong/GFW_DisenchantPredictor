@@ -1,0 +1,29 @@
+package-as: GFW_DisenchantPredictor
+
+enable-nolib-creation: yes
+
+externals:
+  Libs/LibStub:
+    url: https://repos.curseforge.com/wow/libstub/mainline
+    tag: latest
+  Libs/CallbackHandler-1.0:
+    url: https://repos.curseforge.com/wow/callbackhandler/mainline
+    tag: latest
+  Libs/AceGUI-3.0:
+    url: https://repos.curseforge.com/wow/ace3/mainline/AceGUI-3.0
+    tag: latest
+  Libs/AceDB-3.0:
+    url: https://repos.curseforge.com/wow/ace3/mainline/AceDB-3.0
+    tag: latest
+  Libs/AceDBOptions-3.0:
+    url: https://repos.curseforge.com/wow/ace3/mainline/AceDBOptions-3.0
+    tag: latest
+  Libs/AceConfig-3.0:
+    url: https://repos.curseforge.com/wow/ace3/mainline/AceConfig-3.0
+    tag: latest
+
+ignore:
+  - .github
+  - .gitignore
+  - .pkgmeta
+  - release.yml
