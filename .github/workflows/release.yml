@@ -9,6 +9,9 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Grants permission to upload releases and assets to GitHub
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
